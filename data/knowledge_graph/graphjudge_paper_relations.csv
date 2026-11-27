@@ -1,0 +1,12 @@
+source,target,relation_type,weight,source_id,target_id
+Knowledge Graph Construction,Knowledge Graph,RELATED_TO,0.95,ad2d390a-8b94-4e5e-9ebb-0bb6932e992a,38a4d88a-a0a0-4c6f-be5b-f81f95f9518d
+Large Language Model,Knowledge Graph Construction,RELATED_TO,0.9,45e62658-55b4-4048-8874-14543e498927,ad2d390a-8b94-4e5e-9ebb-0bb6932e992a
+Hallucination,Large Language Model,RELATED_TO,0.9,d1f57853-3527-4038-b03f-4e8f251d3965,45e62658-55b4-4048-8874-14543e498927
+GraphJudge,Knowledge Graph Construction,RELATED_TO,0.95,75f442a9-d6e2-4d43-af86-b672ac65361b,ad2d390a-8b94-4e5e-9ebb-0bb6932e992a
+GraphJudge,Large Language Model,RELATED_TO,0.9,75f442a9-d6e2-4d43-af86-b672ac65361b,45e62658-55b4-4048-8874-14543e498927
+Entity-Centric Strategy,GraphJudge,PART_OF,0.95,2f274775-7da0-4d57-8a51-5b587c681e88,75f442a9-d6e2-4d43-af86-b672ac65361b
+Large Language Model,Natural Language Processing,RELATED_TO,0.95,45e62658-55b4-4048-8874-14543e498927,5c59fe35-a081-409f-a83e-89667b0b7907
+Text Generation,Natural Language Processing,PART_OF,0.95,c9a65429-8bba-4124-8867-89553855b5db,5c59fe35-a081-409f-a83e-89667b0b7907
+Large Language Model,Text Generation,RELATED_TO,0.9,45e62658-55b4-4048-8874-14543e498927,c9a65429-8bba-4124-8867-89553855b5db
+Text-Graph Pair Dataset,Knowledge Graph Construction,RELATED_TO,0.85,139cb8e9-a88e-4ce5-9734-2e1267680512,ad2d390a-8b94-4e5e-9ebb-0bb6932e992a
+Natural Language,Knowledge Graph,RELATED_TO,0.95,3dc6b92f-13e0-4b16-9d67-92b7331c6148,38a4d88a-a0a0-4c6f-be5b-f81f95f9518d

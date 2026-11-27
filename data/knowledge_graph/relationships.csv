@@ -1,0 +1,117 @@
+source,target,relation_type,weight
+Array,Linked List,RELATED_TO,0.555
+Singly Linked List,Linked List,PART_OF,0.838
+Doubly Linked List,Linked List,PART_OF,0.823
+Circular Linked List,Linked List,PART_OF,0.765
+Stack,Queue,SIMILAR_TO,0.657
+Deque,Queue,RELATED_TO,0.806
+Priority Queue,Heap,PART_OF,0.595
+Min-Heap,Heap,PART_OF,0.724
+Max-Heap,Heap,PART_OF,0.731
+Binary Search Tree,AVL Tree,IS_PREREQUISITE_OF,0.932
+Binary Search Tree,Red-Black Tree,IS_PREREQUISITE_OF,0.9
+Binary Search Tree,Splay Tree,IS_PREREQUISITE_OF,0.655
+B-Tree,B+ Tree,IS_PREREQUISITE_OF,0.75
+Trie,Suffix Tree,RELATED_TO,0.621
+Trie,Suffix Array,RELATED_TO,0.915
+Hash Table,Open Addressing,IS_PREREQUISITE_OF,0.898
+Hash Table,Hashing with Chaining,IS_PREREQUISITE_OF,0.669
+Hash Table,Bloom Filter,RELATED_TO,0.806
+Graph,Adjacency List,IS_PREREQUISITE_OF,0.794
+Graph,Adjacency Matrix,IS_PREREQUISITE_OF,0.611
+Graph,Breadth-First Search,IS_PREREQUISITE_OF,0.855
+Graph,Depth-First Search,IS_PREREQUISITE_OF,0.766
+Breadth-First Search,Topological Sort,IS_PREREQUISITE_OF,0.861
+Breadth-First Search,Kahn's Algorithm,IS_PREREQUISITE_OF,0.762
+Depth-First Search,Tarjan's SCC,IS_PREREQUISITE_OF,0.55
+Depth-First Search,Kosaraju's SCC,IS_PREREQUISITE_OF,0.68
+Graph,Dijkstra's Algorithm,IS_PREREQUISITE_OF,0.558
+Graph,Bellman-Ford,IS_PREREQUISITE_OF,0.922
+Graph,Floyd-Warshall,IS_PREREQUISITE_OF,0.901
+Graph,Prim's Algorithm,IS_PREREQUISITE_OF,0.883
+Graph,Kruskal's Algorithm,IS_PREREQUISITE_OF,0.673
+Union-Find,Kruskal's Algorithm,IS_PREREQUISITE_OF,0.573
+Greedy Strategy,Prim's Algorithm,IS_PREREQUISITE_OF,0.901
+Greedy Strategy,Kruskal's Algorithm,IS_PREREQUISITE_OF,0.929
+Divide and Conquer,Quicksort,IS_PREREQUISITE_OF,0.584
+Divide and Conquer,Mergesort,IS_PREREQUISITE_OF,0.744
+Divide and Conquer,Heapsort,RELATED_TO,0.578
+Dynamic Programming,Bellman-Ford,RELATED_TO,0.854
+Dynamic Programming,Floyd-Warshall,RELATED_TO,0.856
+Memoization,Dynamic Programming,PART_OF,0.601
+Tabulation,Dynamic Programming,PART_OF,0.74
+Two Pointers,Sliding Window,RELATED_TO,0.656
+Bit Manipulation,Union-Find,RELATED_TO,0.662
+Quicksort,Quickselect,RELATED_TO,0.719
+Mergesort,Stable Sorting,RELATED_TO,0.635
+Heapsort,Heap,IS_PREREQUISITE_OF,0.766
+Insertion Sort,Shell Sort,IS_PREREQUISITE_OF,0.842
+Counting Sort,Radix Sort,IS_PREREQUISITE_OF,0.63
+Bucket Sort,Radix Sort,RELATED_TO,0.675
+Stable Sorting,Radix Sort,RELATED_TO,0.948
+Big-O Notation,Time Complexity,PART_OF,0.81
+Big-Theta Notation,Time Complexity,PART_OF,0.725
+Big-Omega Notation,Time Complexity,PART_OF,0.757
+Time Complexity,Amortized Analysis,IS_PREREQUISITE_OF,0.598
+Space Complexity,In-Place Algorithm,RELATED_TO,0.64
+Recursion,Recursion Tree Method,IS_PREREQUISITE_OF,0.685
+Recursion,Divide and Conquer,IS_PREREQUISITE_OF,0.785
+Master Theorem,Divide and Conquer,RELATED_TO,0.642
+Hash Table,LRU Cache,RELATED_TO,0.638
+Hash Table,LFU Cache,RELATED_TO,0.578
+Skip List,Treap,RELATED_TO,0.802
+Binary Search Tree,Treap,IS_PREREQUISITE_OF,0.642
+KD-Tree,Quadtree,RELATED_TO,0.672
+Quadtree,Octree,IS_PREREQUISITE_OF,0.894
+Convex Hull,Divide and Conquer,RELATED_TO,0.421
+KMP Algorithm,String Hashing,RELATED_TO,0.645
+Rabin-Karp,String Hashing,IS_PREREQUISITE_OF,0.818
+Z Algorithm,String Hashing,RELATED_TO,0.636
+Boyer-Moore,String Hashing,RELATED_TO,0.603
+Edit Distance,Dynamic Programming,IS_PREREQUISITE_OF,0.924
+Manacher's Algorithm,String Hashing,RELATED_TO,0.571
+Longest Increasing Subsequence,Binary Search Tree,RELATED_TO,0.542
+0-1 Knapsack,Dynamic Programming,IS_PREREQUISITE_OF,0.864
+Unbounded Knapsack,Dynamic Programming,IS_PREREQUISITE_OF,0.873
+Coin Change,Dynamic Programming,IS_PREREQUISITE_OF,0.626
+Matrix Exponentiation,Fast Power,IS_PREREQUISITE_OF,0.589
+Fast Fourier Transform,Divide and Conquer,RELATED_TO,0.529
+Greatest Common Divisor,Least Common Multiple,IS_PREREQUISITE_OF,0.719
+Sieve of Eratosthenes,Modular Arithmetic,RELATED_TO,0.54
+Modular Arithmetic,Modular Inverse,IS_PREREQUISITE_OF,0.842
+Chinese Remainder Theorem,Modular Arithmetic,IS_PREREQUISITE_OF,0.819
+Combinatorics nCr,Dynamic Programming,RELATED_TO,0.944
+Quickselect,Quicksort,SIMILAR_TO,0.589
+Array,Linked List,IS_PREREQUISITE_OF,0.745
+Doubly Linked List,Circular Linked List,IS_PREREQUISITE_OF,0.912
+Queue,Deque,IS_PREREQUISITE_OF,0.888
+Heap,Min-Heap,IS_PREREQUISITE_OF,0.587
+Binary Search Tree,AVL Tree,IS_PREREQUISITE_OF,0.719
+Splay Tree,B-Tree,IS_PREREQUISITE_OF,0.661
+Trie,Suffix Array,IS_PREREQUISITE_OF,0.551
+Hash Table,Hashing with Chaining,IS_PREREQUISITE_OF,0.858
+Bloom Filter,Graph,IS_PREREQUISITE_OF,0.805
+Adjacency Matrix,Breadth-First Search,IS_PREREQUISITE_OF,0.655
+Topological Sort,Kahn's Algorithm,IS_PREREQUISITE_OF,0.846
+Kosaraju's SCC,Dijkstra's Algorithm,IS_PREREQUISITE_OF,0.771
+Floyd-Warshall,Prim's Algorithm,IS_PREREQUISITE_OF,0.721
+Union-Find,Greedy Strategy,IS_PREREQUISITE_OF,0.554
+Dynamic Programming,Memoization,IS_PREREQUISITE_OF,0.58
+Backtracking,Two Pointers,IS_PREREQUISITE_OF,0.903
+Bit Manipulation,Quicksort,IS_PREREQUISITE_OF,0.912
+Heapsort,Insertion Sort,IS_PREREQUISITE_OF,0.768
+Counting Sort,Radix Sort,IS_PREREQUISITE_OF,0.884
+Shell Sort,Stable Sorting,IS_PREREQUISITE_OF,0.783
+Time Complexity,Space Complexity,IS_PREREQUISITE_OF,0.609
+Big-Theta Notation,Big-Omega Notation,IS_PREREQUISITE_OF,0.601
+Recursion,Recursion Tree Method,IS_PREREQUISITE_OF,0.673
+Hash Map vs Set,LRU Cache,IS_PREREQUISITE_OF,0.91
+Skip List,Treap,IS_PREREQUISITE_OF,0.868
+Quadtree,Octree,IS_PREREQUISITE_OF,0.894
+KMP Algorithm,Rabin-Karp,IS_PREREQUISITE_OF,0.91
+Boyer-Moore,String Hashing,IS_PREREQUISITE_OF,0.634
+Edit Distance,Longest Increasing Subsequence,IS_PREREQUISITE_OF,0.65
+Unbounded Knapsack,Coin Change,IS_PREREQUISITE_OF,0.591
+Fast Power,Fast Fourier Transform,IS_PREREQUISITE_OF,0.862
+Least Common Multiple,Sieve of Eratosthenes,IS_PREREQUISITE_OF,0.904
+Modular Inverse,Chinese Remainder Theorem,IS_PREREQUISITE_OF,0.713

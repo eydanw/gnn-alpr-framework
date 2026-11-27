@@ -73,9 +73,13 @@ class Neo4jPyGDatasetBuilder:
         )
         return kp_ids, x
 
-    def fetch_edges(self, kp_id_to_idx: Dict[str, int]) -> np.ndarray:
-        query = """
-        MATCH (u:KP)-[:IS_PREREQUISITE_OF]->(v:KP)
+    def fetch_edges(
+        self, kp_id_to_idx: Dict[str, int], include_latent: bool = True
+    ) -> np.ndarray:
+        where = "" if include_latent else "WHERE coalesce(r.is_latent, false) = false"
+        query = f"""
+        MATCH (u:KP)-[r:IS_PREREQUISITE_OF]->(v:KP)
+        {where}
         RETURN u.kp_id AS src_id, v.kp_id AS dst_id
         """
         edge_pairs = []
@@ -93,7 +97,9 @@ class Neo4jPyGDatasetBuilder:
             edge_index = np.empty((2, 0), dtype=np.int64)
         return edge_index
 
-    def build_pyg_data(self) -> Tuple[Data, Dict[str, int], Dict[int, str]]:
+    def build_pyg_data(
+        self, include_latent: bool = True
+    ) -> Tuple[Data, Dict[str, int], Dict[int, str]]:
         print("⏳ Đang nạp danh sách Knowledge Points và ma trận đặc trưng 1031d...")
         kp_ids, x_arr = self.fetch_nodes()
         num_nodes = len(kp_ids)
@@ -103,7 +109,7 @@ class Neo4jPyGDatasetBuilder:
         idx_to_kp_id = {i: kp_id for i, kp_id in enumerate(kp_ids)}
 
         print("⏳ Đang nạp các quan hệ tiên quyết (:IS_PREREQUISITE_OF)...")
-        edge_index_arr = self.fetch_edges(kp_id_to_idx)
+        edge_index_arr = self.fetch_edges(kp_id_to_idx, include_latent=include_latent)
         num_edges = edge_index_arr.shape[1] if edge_index_arr.size > 0 else 0
         print(f"✅ Đã nạp {num_edges:,} quan hệ tiên quyết hợp lệ.")
 

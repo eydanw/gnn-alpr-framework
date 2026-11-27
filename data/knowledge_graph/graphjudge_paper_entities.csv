@@ -1,0 +1,13 @@
+name,type,id,confidence,definition
+Large Language Model,tool,45e62658-55b4-4048-8874-14543e498927,0.95,"An artificial intelligence model trained on vast amounts of text data, capable of understanding, generating, and processing human-like text."
+Knowledge Graph Construction,method,ad2d390a-8b94-4e5e-9ebb-0bb6932e992a,0.95,"The process of automatically or semi-automatically building a structured knowledge graph from various data sources, often unstructured text."
+Natural Language,concept,3dc6b92f-13e0-4b16-9d67-92b7331c6148,0.85,"The language spoken or written by humans, as opposed to formal or artificial languages, which is the subject of study in natural language processing."
+Knowledge Graph,data_structure,38a4d88a-a0a0-4c6f-be5b-f81f95f9518d,0.95,"A structured representation of knowledge that stores information in a graph format, consisting of entities (nodes) and their relationships (edges)."
+Hallucination,concept,d1f57853-3527-4038-b03f-4e8f251d3965,0.9,"In the context of Large Language Models, hallucination refers to the generation of plausible but factually incorrect or unsupported information."
+GraphJudge,tool,75f442a9-d6e2-4d43-af86-b672ac65361b,0.95,A proposed framework for knowledge graph construction that aims to enhance quality by eliminating noise and addressing inaccuracies and hallucination using a fine-tuned large language model.
+Entity-Centric Strategy,method,2f274775-7da0-4d57-8a51-5b587c681e88,0.85,"A strategy or approach that focuses on individual entities (e.g., persons, organizations, locations) as the primary units for processing or analysis, often used to filter noise in information extraction."
+Text-Graph Pair Dataset,data_structure,139cb8e9-a88e-4ce5-9734-2e1267680512,0.85,"A dataset comprising pairs of text documents and corresponding knowledge graphs, used for training and evaluating models in knowledge graph construction tasks."
+GraphRAG System,system,324c72dd-b3bd-406c-8d3a-8c1b2c7dc4af,0.85,"A system that integrates knowledge graphs with Retrieval-Augmented Generation (RAG) techniques, often leveraging graph structures to enhance information retrieval for generative models."
+Recommendation System,system,6a3fe0cd-b77b-4126-911a-13dd3b80c589,0.85,"A software system that suggests relevant items or information to users based on their preferences, past behavior, or other contextual data."
+Natural Language Processing,concept,5c59fe35-a081-409f-a83e-89667b0b7907,0.9,"A subfield of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language."
+Text Generation,method,c9a65429-8bba-4124-8867-89553855b5db,0.9,The task in natural language processing where a model produces human-like text based on a given prompt or input.
